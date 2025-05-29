@@ -1,4 +1,4 @@
-const Pokenea = require('./pokenea-model');
+const Pokenea = require('./pokeneasModel');
 
 const pokeneas = [
     new Pokenea(1, "Andioink", 1.7, "Silletería ancestral", "https://your-s3-url.com/andioink.png", "Lo importante no es llegar rápido, sino con estilo paisa."),

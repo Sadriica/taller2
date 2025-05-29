@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= name %> | Pokenea</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="pokenea-container">
+        <h1><%= name %></h1>
+        <img src="<%= image %>" alt="<%= name %>" style="max-width: 300px; border-radius: 12px; margin: 20px 0;">
+        <p class="phrase">"<%= phrase %>"</p>
+        <p class="container-id">Container ID: <%= containerId %></p>
+    </div>
+
+    <div class="navigation">
+        <h2>Explora otros Pokeneas</h2>
+        <ul style="list-style: none; padding: 0;">
+            <% for (let i = 1; i <= 9; i++) { %>
+                <li style="display: inline; margin: 0 10px;">
+                    <a href="/pokeneas/<%= i %>">#<%= i %></a>
+                </li>
+            <% } %>
+        </ul>
+    </div>
+</body>
+</html>
