@@ -1,0 +1,17 @@
+{
+  "name": "pokeneas",
+  "version": "1.0.0",
+  "description": "Proyecto Pokenea en Express con vistas EJS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ejs": "^3.1.9"
+  }
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to right, #3B2F8C, #9A2C2C, #84A23C);
+    color: #fff;
+}
+
+.pokenea-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.phrase {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.container-id {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #ddd;
+}
